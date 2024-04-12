@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="codePanel">
+            <h2>HTML</h2>
+            <textarea id="htmlCode" class="codeTextarea"></textarea>
+        </div>
+        <div class="codePanel">
+            <h2>CSS</h2>
+            <textarea id="cssCode" class="codeTextarea"></textarea>
+        </div>
+        <div class="codePanel">
+            <h2>JavaScript</h2>
+            <textarea id="jsCode" class="codeTextarea"></textarea>
+        </div>
+        <div class="previewPanel">
+            <h2>Preview</h2>
+            <div class="previewWrapper">
+                <iframe id="previewFrame" class="previewFrame"></iframe>
+                <button id="fullscreenButton"><i class="fas fa-expand"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
